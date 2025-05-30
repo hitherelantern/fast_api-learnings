@@ -1,0 +1,36 @@
+
+problem 1: Type Validation >>>>>>
+
+Type validation and data validation are important aspect of software programming(for production grade development)
+But, python is a dynamically typed language(means we don't specify the type of variable during initialization)
+
+So, pydantic helps in type validation,any type of complex data validation(in python).
+
+Even though , python has some type hinting technique on its own..like...
+
+def get_data(name:str):
+    ...........some code...........
+
+
+This will not produce an error(still execute the code) , even if we give the wrong input type to the function.The type hinting in python is just for 
+the sake of information. So, innate type hinting in python isn't strong enough for type validation.
+
+We can't enforce type validation by this type of type hinting.
+
+
+
+problem 2: Data Validation >>>>>
+
+eg:
+def insert_data(age:int):
+    -------------some code-------------------
+
+data validation constraint: age>0
+
+
+Even though we can hard code the conditions for every functionalities, it isn't scalable,i.e, for production grade applications, if there 
+happens to be a change in any of data/type validation constraints , it makes an uphill task because we have to change the codebase again.
+
+Therefore pydantic makes it easy for the developer to do type/data validation .
+
+
