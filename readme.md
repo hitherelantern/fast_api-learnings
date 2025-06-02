@@ -29,7 +29,7 @@ This project demonstrates the creation of a RESTful API using FastAPI to serve a
 
 ## Project Structure
 
-```plaintext
+```bash
 .
 ├── .gitignore # Files to ignore in Git version control
 
@@ -54,8 +54,8 @@ This project demonstrates the creation of a RESTful API using FastAPI to serve a
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-repo/fastapi-ml-practice.git
-   cd fastapi-ml-practice
+   git clone https://github.com/hitherelantern/fast_api-learnings.git
+   cd fast_api-learnings
    ```
 
 
